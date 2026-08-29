@@ -8,11 +8,6 @@ const adapter = new PrismaPg({
 
 const prisma = new PrismaClient({ 
     adapter,
-    omit: {
-        user: {
-            hashedPassword: true,
-        }
-    }
  });
 
 export const connectDatabase = async () => {
