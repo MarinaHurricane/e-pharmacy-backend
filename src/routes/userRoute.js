@@ -6,6 +6,6 @@ const userRoute = Router();
 
 userRoute.use(authenticate);
 
-userRoute.get('/', user.getCurrentUser);
+userRoute.get('/me', user.getCurrentUser);
 
 export default userRoute;
