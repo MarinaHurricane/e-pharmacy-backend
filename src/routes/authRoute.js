@@ -1,8 +1,11 @@
-import { Router } from "express";
-import { celebrate } from "celebrate";
-import { auth } from "../controllers/index.js";
-import { authenticate } from "../middleware/authenticate.js";
-import { loginUserSchema, registerUserSchema } from "../validations/authValidation.js";
+import { Router } from 'express';
+import { celebrate } from 'celebrate';
+import { auth } from '../controllers/index.js';
+import { authenticate } from '../middleware/authenticate.js';
+import {
+  loginUserSchema,
+  registerUserSchema,
+} from '../validations/authValidation.js';
 
 const authRoute = new Router();
 

@@ -8,6 +8,7 @@ import helmet from 'helmet';
 import { errors } from 'celebrate';
 import { connectDatabase } from './db/prisma.js';
 import authRoute from './routes/authRoute.js';
+import productsRoute from './routes/productsRoute.js';
 
 const PORT = process.env.PORT ?? 3000;
 
@@ -42,6 +43,7 @@ app.use(helmet());
 app.use(cookieParser());
 
 app.use('/api/auth', authRoute);
+app.use('/api/products', productsRoute);
 
 await connectDatabase();
 
