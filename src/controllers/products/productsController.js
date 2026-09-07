@@ -14,7 +14,7 @@ export const productsController = async (req, res) => {
     ];
   }
 
-  if (category) {
+  if (category && category !== 'All categories') {
     where.category = category;
   }
 
