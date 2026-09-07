@@ -6,4 +6,5 @@ export const CATEGORIES = [
   "Leg",
   "Dental Care",
   "Skin Care",
+  "All categories"
 ];

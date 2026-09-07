@@ -1,0 +1,354 @@
+[
+  {
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Aspirin_(1).jpg",
+    "name": "Aspirin",
+    "suppliers": "Square",
+    "stock": "12",
+    "price": "89.66",
+    "category": "Medicine"
+  },
+  {
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Panadol_500_mg.jpg",
+    "name": "Paracetamol",
+    "suppliers": "Acme",
+    "stock": "19",
+    "price": "34.16",
+    "category": "Heart"
+  },
+  {
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Ibuprofen.jpg",
+    "name": "Ibuprofen",
+    "suppliers": "Beximco",
+    "stock": "09",
+    "price": "53.76",
+    "category": "Head"
+  },
+  {
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tylenol.jpg",
+    "name": "Acetaminophen",
+    "suppliers": "ACI",
+    "stock": "14",
+    "price": "28.57",
+    "category": "Hand"
+  },
+  {
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Naproxen.JPG",
+    "name": "Naproxen",
+    "suppliers": "Uniliver",
+    "stock": "10",
+    "price": "56.34",
+    "category": "Leg"
+  },
+  {
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Amoxicillin_drug.jpg",
+    "name": "Amoxicillin",
+    "suppliers": "Square",
+    "stock": "25",
+    "price": "45.99",
+    "category": "Medicine"
+  },
+  {
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Lisinopril_20_mg.jpg",
+    "name": "Lisinopril",
+    "suppliers": "Acme",
+    "stock": "17",
+    "price": "29.88",
+    "category": "Heart"
+  },
+  {
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Ciprofloxacin.jpg",
+    "name": "Ciprofloxacin",
+    "suppliers": "Beximco",
+    "stock": "11",
+    "price": "38.45",
+    "category": "Head"
+  },
+  {
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/RECALLED_%E2%80%93_Hydrochlorothiazide_Tablets_25_mg_1000-count_bottle_(19644568363).jpg",
+    "name": "Hydrochlorothiazide",
+    "suppliers": "ACI",
+    "stock": "22",
+    "price": "24.76",
+    "category": "Hand"
+  },
+  {
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Prednisone_20mg_(TL_175)_corticosteroid_medication_pills_(55006378950).jpg",
+    "name": "Prednisone",
+    "suppliers": "Uniliver",
+    "stock": "15",
+    "price": "48.99",
+    "category": "Leg"
+  },
+  {
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Propranolol_tablets.png",
+    "name": "Propranolol",
+    "suppliers": "Square",
+    "stock": "18",
+    "price": "35.66",
+    "category": "Medicine"
+  },
+  {
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Omeprazol_Activis_capsules.jpg",
+    "name": "Omeprazole",
+    "suppliers": "Acme",
+    "stock": "14",
+    "price": "42.16",
+    "category": "Heart"
+  },
+  {
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Diazepam_tablets.jpeg",
+    "name": "Diazepam",
+    "suppliers": "Beximco",
+    "stock": "08",
+    "price": "27.76",
+    "category": "Head"
+  },
+  {
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Simvastatin_varieties.jpg",
+    "name": "Simvastatin",
+    "suppliers": "ACI",
+    "stock": "30",
+    "price": "18.57",
+    "category": "Hand"
+  },
+  {
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Tramadol_Aurobindo_50_mg.jpg",
+    "name": "Tramadol",
+    "suppliers": "Uniliver",
+    "stock": "13",
+    "price": "52.34",
+    "category": "Leg"
+  },
+  {
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Losartan_potassium1.jpg",
+    "name": "Losartan",
+    "suppliers": "Square",
+    "stock": "20",
+    "price": "31.99",
+    "category": "Medicine"
+  },
+  {
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Metformin_500mg_Tablets.jpg",
+    "name": "Metformin",
+    "suppliers": "Acme",
+    "stock": "12",
+    "price": "22.88",
+    "category": "Heart"
+  },
+  {
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Alprazolam_ODT.jpg",
+    "name": "Alprazolam",
+    "suppliers": "Beximco",
+    "stock": "09",
+    "price": "47.76",
+    "category": "Head"
+  },
+  {
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Atorvastatin_varieties.jpg",
+    "name": "Atorvastatin",
+    "suppliers": "ACI",
+    "stock": "18",
+    "price": "19.57",
+    "category": "Hand"
+  },
+  {
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Kc-zolpidem-10mg.jpg",
+    "name": "Zolpidem",
+    "suppliers": "Uniliver",
+    "stock": "16",
+    "price": "41.34",
+    "category": "Leg"
+  },
+  {
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%A4%D0%BE%D0%BB%D0%B8%D0%B5%D0%B2%D0%B0%D1%8F_%D0%BA%D0%B8%D1%81%D0%BB%D0%BE%D1%82%D0%B0_%D0%B2_%D1%82%D0%B0%D0%B1%D0%BB%D0%B5%D1%82%D0%BA%D0%B0%D1%85.jpg",
+    "name": "Folic Acid",
+    "suppliers": "Square",
+    "stock": "14",
+    "price": "15.66",
+    "category": "Medicine"
+  },
+  {
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Pills_counting.jpg",
+    "name": "Calcium Carbonate",
+    "suppliers": "Acme",
+    "stock": "21",
+    "price": "18.16",
+    "category": "Heart"
+  },
+  {
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Vitamin_D_pills.jpg",
+    "name": "Vitamin D",
+    "suppliers": "Beximco",
+    "stock": "16",
+    "price": "12.76",
+    "category": "Head"
+  },
+  {
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Fish_Oil_Capsules.jpg",
+    "name": "Fish Oil",
+    "suppliers": "ACI",
+    "stock": "25",
+    "price": "23.57",
+    "category": "Hand"
+  },
+  {
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Multivitamins_complete_a_to_z_250_tablets.jpg",
+    "name": "Multivitamins",
+    "suppliers": "Uniliver",
+    "stock": "19",
+    "price": "17.34",
+    "category": "Leg"
+  },
+  {
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Toothpaste_(5146809288).jpg",
+    "name": "Toothpaste",
+    "suppliers": "Square",
+    "stock": "30",
+    "price": "6.66",
+    "category": "Dental Care"
+  },
+  {
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Mouthwash.jpg",
+    "name": "Mouthwash",
+    "suppliers": "Acme",
+    "stock": "25",
+    "price": "8.16",
+    "category": "Dental Care"
+  },
+  {
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Toothbrush.jpg",
+    "name": "Toothbrush",
+    "suppliers": "Beximco",
+    "stock": "20",
+    "price": "4.76",
+    "category": "Dental Care"
+  },
+  {
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/Facial_wash_gel_bottle_made_of_LDPE.jpg",
+    "name": "Facial Cleanser",
+    "suppliers": "ACI",
+    "stock": "14",
+    "price": "11.57",
+    "category": "Skin Care"
+  },
+  {
+    "photo": "https://commons.wikimedia.org/wiki/Special:FilePath/E45_cream_bottle.png",
+    "name": "Moisturizer",
+    "suppliers": "Uniliver",
+    "stock": "18",
+    "price": "13.34",
+    "category": "Skin Care"
+  },
+  {
+    "photo": "https://i.ibb.co/ZfP2FD0/shop-4-11-1000x1000-min.jpg",
+    "name": "Loratadine",
+    "suppliers": "Square",
+    "stock": "17",
+    "price": "120.45",
+    "category": "Medicine"
+  },
+  {
+    "photo": "https://i.ibb.co/MkY67F3/shop-4-16-1000x1000-min.jpg",
+    "name": "Warfarin",
+    "suppliers": "Square",
+    "stock": "15",
+    "price": "52.88",
+    "category": "Medicine"
+  },
+  {
+    "photo": "https://i.ibb.co/j6N2qYv/shop-4-17-1000x1000-min.jpg",
+    "name": "Fluoxetine",
+    "suppliers": "Acme",
+    "stock": "20",
+    "price": "78.45",
+    "category": "Heart"
+  },
+  {
+    "photo": "https://i.ibb.co/vHPcGGf/shop-4-19-1000x1000-min.jpg",
+    "name": "Metoprolol",
+    "suppliers": "ACI",
+    "stock": "16",
+    "price": "62.75",
+    "category": "Hand"
+  },
+  {
+    "photo": "https://i.ibb.co/8XnDS2r/shop-4-20-1000x1000-min.jpg",
+    "name": "Amlodipine",
+    "suppliers": "Uniliver",
+    "stock": "10",
+    "price": "47.34",
+    "category": "Leg"
+  },
+  {
+    "photo": "https://i.ibb.co/F5j8sxD/shop-4-21-1000x1000-min.jpg",
+    "name": "Citalopram",
+    "suppliers": "Square",
+    "stock": "18",
+    "price": "85.99",
+    "category": "Medicine"
+  },
+  {
+    "photo": "https://i.ibb.co/ZBrK3RJ/shop-4-22-1000x1000-min.jpg",
+    "name": "Metronidazole",
+    "suppliers": "Acme",
+    "stock": "7",
+    "price": "42.75",
+    "category": "Heart"
+  },
+  {
+    "photo": "https://i.ibb.co/zHrD8H7/shop-4-23-1000x1000-min.jpg",
+    "name": "Carvedilol",
+    "suppliers": "Beximco",
+    "stock": "13",
+    "price": "69.99",
+    "category": "Head"
+  },
+  {
+    "photo": "https://i.ibb.co/SN1GqNZ/shop-4-24-1000x1000-min.jpg",
+    "name": "Clopidogrel",
+    "suppliers": "ACI",
+    "stock": "21",
+    "price": "54.88",
+    "category": "Hand"
+  },
+  {
+    "photo": "https://i.ibb.co/zGt8tYX/shop-4-25-1000x1000-min.jpg",
+    "name": "Levothyroxine",
+    "suppliers": "Uniliver",
+    "stock": "12",
+    "price": "98.45",
+    "category": "Leg"
+  },
+  {
+    "photo": "https://i.ibb.co/2sbbn4B/shop-4-26-1000x1000-min.jpg",
+    "name": "Ramipril",
+    "suppliers": "Square",
+    "stock": "19",
+    "price": "37.99",
+    "category": "Medicine"
+  },
+  {
+    "photo": "https://i.ibb.co/jf9ymcx/shop-4-27-1000x1000-min.jpg",
+    "name": "Amitriptyline",
+    "suppliers": "Acme",
+    "stock": "11",
+    "price": "76.75",
+    "category": "Heart"
+  },
+  {
+    "photo": "https://i.ibb.co/N2nKzWw/shop-4-29-1000x1000-min.jpg",
+    "name": "Montelukast",
+    "suppliers": "ACI",
+    "stock": "9",
+    "price": "47.45",
+    "category": "Hand"
+  },
+  {
+    "photo": "https://i.ibb.co/cFtQwGV/shop-4-31-1000x1000-min.jpg",
+    "name": "Meloxicam",
+    "suppliers": "Square",
+    "stock": "16",
+    "price": "84.75",
+    "category": "Medicine"
+  }
+]

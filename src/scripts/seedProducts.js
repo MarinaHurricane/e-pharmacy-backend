@@ -1,6 +1,12 @@
 import prisma from '../db/prisma.js';
 import products from '../../data/products.json' with { type: 'json' };
 
+
+// const prisma = new PrismaClient();
+
+const seedProducts = async () => {
+  try {
+    await prisma.product.deleteMany();
 const data = products.map((product) => ({
   photo: product.photo,
   name: product.name,
@@ -10,7 +16,7 @@ const data = products.map((product) => ({
   category: product.category,
 }));
 
-try {
+
   await prisma.product.createMany({
     data,
   });
@@ -21,3 +27,6 @@ try {
 } finally {
   await prisma.$disconnect();
 }
+}
+
+seedProducts();
