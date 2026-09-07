@@ -15,3 +15,9 @@ export const productIdSchema = {
     productId: Joi.number().integer().positive().required(),
   }),
 };
+
+export const categorySchema = {
+  [Segments.QUERY]: Joi.object({
+    category: Joi.string().valid(...CATEGORIES),
+  }),
+};
