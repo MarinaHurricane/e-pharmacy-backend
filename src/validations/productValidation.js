@@ -18,6 +18,6 @@ export const productIdSchema = {
 
 export const categorySchema = {
   [Segments.QUERY]: Joi.object({
-    category: Joi.string().valid(...CATEGORIES),
+    category: Joi.string().valid(...CATEGORIES).allow(''),
   }),
 };
