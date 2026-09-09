@@ -4,6 +4,7 @@ import { refreshUserSession } from "./auth/refreshUserSession.js";
 import { registerUser } from "./auth/registerUser.js";
 import { getCategories } from "./products/getCategories.js";
 import { getProductById } from "./products/getProductById.js";
+import { getProductReviews } from "./products/getProductsReviews.js";
 import { productsController } from "./products/productsController.js";
 import { getCurrentUser } from "./user/getCurrentUser.js";
 
@@ -17,7 +18,8 @@ export const auth = {
 export const products = {
     productsController,
     getProductById,
-    getCategories
+    getCategories,
+    getProductReviews,
 }
 
 export const user = {

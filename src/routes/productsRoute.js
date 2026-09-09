@@ -17,5 +17,6 @@ productsRoute.get(
   celebrate(productIdSchema),
   products.getProductById,
 );
+productsRoute.get('/:productId/reviews', celebrate(productIdSchema), products.getProductReviews);
 
 export default productsRoute;
