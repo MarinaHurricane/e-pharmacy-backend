@@ -32,11 +32,27 @@ model Session {
 }
 
 model Product {
-  id        Int     @id @default(autoincrement())
-  photo     String
+  id          Int      @id @default(autoincrement())
+  photo       String
+  name        String
+  suppliers   String
+  stock       Int
+  price       Decimal
+  discount    Int      @default(0)
+  category    String
+  description String   @db.Text
+
+  reviews     Review[]
+}
+
+model Review {
+  id        Int      @id @default(autoincrement())
+  avatar    String
   name      String
-  suppliers String
-  stock     Int
-  price     Decimal
-  category  String
+  text      String   @db.Text
+  rating    Int
+  createdAt DateTime @default(now())
+
+  productId Int
+  product   Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
 }

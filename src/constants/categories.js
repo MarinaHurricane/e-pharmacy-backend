@@ -1,10 +1,14 @@
 export const CATEGORIES = [
-  "Medicine",
-  "Heart",
-  "Head",
-  "Hand",
-  "Leg",
-  "Dental Care",
-  "Skin Care",
-  "All categories"
+  'All categories',
+  'Vitamins',
+  'Minerals',
+  'Multivitamins',
+  'Digestive Health',
+  'Beauty & Collagen',
+  'Sports & Performance',
+  'Herbal & Adaptogens',
+  'Joint & Bone',
+  'Oils & Fatty Acids',
+  'Wellness & Antioxidants',
+  'Sleep & Relaxation',
 ];
