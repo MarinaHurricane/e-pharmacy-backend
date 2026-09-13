@@ -2,6 +2,7 @@ import { loginUser } from "./auth/loginUser.js";
 import { logoutUser } from "./auth/logoutUser.js";
 import { refreshUserSession } from "./auth/refreshUserSession.js";
 import { registerUser } from "./auth/registerUser.js";
+import { getLocations } from "./locations/getLocations.js";
 import { getCategories } from "./products/getCategories.js";
 import { getProductById } from "./products/getProductById.js";
 import { getProductReviews } from "./products/getProductsReviews.js";
@@ -24,4 +25,8 @@ export const products = {
 
 export const user = {
     getCurrentUser,
+}
+
+export const locations = {
+    getLocations,
 }

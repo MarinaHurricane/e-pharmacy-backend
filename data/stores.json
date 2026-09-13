@@ -1,0 +1,65 @@
+[
+  {
+    "name": "VitaWell Nutrition",
+    "address": "14 High Street",
+    "city": "Exeter",
+    "phone": "01392 555 214",
+    "rating": 4
+  },
+  {
+    "name": "The Supplement House",
+    "address": "82 Queen Street",
+    "city": "Cardiff",
+    "phone": "029 2055 7318",
+    "rating": 5
+  },
+  {
+    "name": "Pure Nutrition Store",
+    "address": "27 Broad Street",
+    "city": "Bristol",
+    "phone": "0117 555 4821",
+    "rating": 4
+  },
+  {
+    "name": "VitaLife Supplements",
+    "address": "9 Market Street",
+    "city": "Manchester",
+    "phone": "0161 555 3906",
+    "rating": 4
+  },
+  {
+    "name": "Health & Nutrition Hub",
+    "address": "41 New Street",
+    "city": "Birmingham",
+    "phone": "0121 555 8472",
+    "rating": 5
+  },
+  {
+    "name": "Natural Wellness Store",
+    "address": "63 George Street",
+    "city": "Edinburgh",
+    "phone": "0131 555 6214",
+    "rating": 4
+  },
+  {
+    "name": "NutriBalance",
+    "address": "18 Castle Street",
+    "city": "Liverpool",
+    "phone": "0151 555 3048",
+    "rating": 3
+  },
+  {
+    "name": "Vitamin & Wellness Co.",
+    "address": "35 King Street",
+    "city": "Leeds",
+    "phone": "0113 555 7192",
+    "rating": 5
+  },
+  {
+    "name": "The Nutrition Shop",
+    "address": "22 Station Road",
+    "city": "London",
+    "phone": "020 7946 5821",
+    "rating": 4
+  }
+]

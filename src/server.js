@@ -10,6 +10,7 @@ import { connectDatabase } from './db/prisma.js';
 import authRoute from './routes/authRoute.js';
 import productsRoute from './routes/productsRoute.js';
 import userRoute from './routes/userRoute.js';
+import locationsRoute from './routes/locationsRoute.js';
 
 const PORT = process.env.PORT ?? 3000;
 
@@ -45,7 +46,8 @@ app.use(cookieParser());
 
 app.use('/api/auth', authRoute);
 app.use('/api/products', productsRoute);
-app.use('/api/user', userRoute)
+app.use('/api/user', userRoute);
+app.use('/api/locations', locationsRoute);
 
 await connectDatabase();
 
