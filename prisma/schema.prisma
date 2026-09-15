@@ -58,10 +58,12 @@ model Review {
 }
 
 model Location {
-  id      Int    @id @default(autoincrement())
-  name    String
-  address String
-  city    String
-  phone   String
-  rating  Int
+  id        Int    @id @default(autoincrement())
+  name      String
+  address   String
+  city      String
+  phone     String
+  rating    Int
+  openTime  String
+  closeTime String
 }
