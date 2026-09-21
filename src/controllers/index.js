@@ -8,6 +8,10 @@ import { getProductById } from "./products/getProductById.js";
 import { getProductReviews } from "./products/getProductsReviews.js";
 import { productsController } from "./products/productsController.js";
 import { getCurrentUser } from "./user/getCurrentUser.js";
+import { addCartItem } from "./cart/addCartItem.js";
+import { deleteCartItem } from "./cart/deleteCartItem.js";
+import { updateCartItem } from "./cart/updateCartItem.js";
+import { getCart } from "./cart/getCart.js";
 
 export const auth = {
     registerUser,
@@ -29,4 +33,11 @@ export const user = {
 
 export const locations = {
     getLocations,
+}
+
+export const cart = {
+    getCart,
+    deleteCartItem,
+    updateCartItem,
+    addCartItem,
 }
