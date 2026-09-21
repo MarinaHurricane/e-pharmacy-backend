@@ -11,6 +11,7 @@ import authRoute from './routes/authRoute.js';
 import productsRoute from './routes/productsRoute.js';
 import userRoute from './routes/userRoute.js';
 import locationsRoute from './routes/locationsRoute.js';
+import cartRouter from './routes/cartRoute.js';
 
 const PORT = process.env.PORT ?? 3000;
 
@@ -48,6 +49,7 @@ app.use('/api/auth', authRoute);
 app.use('/api/products', productsRoute);
 app.use('/api/user', userRoute);
 app.use('/api/locations', locationsRoute);
+app.use('/api/cart', cartRouter);
 
 await connectDatabase();
 
