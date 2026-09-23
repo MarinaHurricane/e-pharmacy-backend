@@ -16,7 +16,7 @@ cartRouter.patch(
   cart.updateCartItem,
 );
 cartRouter.delete(
-  '/cart/items/:productId',
+  '/items/:productId',
   celebrate(deleteCartItemSchema),
   cart.deleteCartItem,
 );
