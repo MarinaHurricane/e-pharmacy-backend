@@ -3,7 +3,7 @@ import { Joi, Segments } from 'celebrate';
 export const addToCartSchema = {
   [Segments.BODY]: Joi.object({
     productId: Joi.number().integer().positive().required(),
-    quantity: Joi.number().integer().min(1).optional(),
+    quantity: Joi.number().integer().min(1).optional().default(1),
   }),
 };
 
