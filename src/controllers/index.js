@@ -12,6 +12,7 @@ import { addCartItem } from "./cart/addCartItem.js";
 import { deleteCartItem } from "./cart/deleteCartItem.js";
 import { updateCartItem } from "./cart/updateCartItem.js";
 import { getCart } from "./cart/getCart.js";
+import { createOrder } from "./order/createOrder.js";
 
 export const auth = {
     registerUser,
@@ -40,4 +41,8 @@ export const cart = {
     deleteCartItem,
     updateCartItem,
     addCartItem,
+}
+
+export const orders = {
+    createOrder,
 }

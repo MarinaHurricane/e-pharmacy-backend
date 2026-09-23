@@ -2,7 +2,13 @@ import createHttpError from 'http-errors';
 import prisma from "../db/prisma.js";
 
 export const authenticate = async(req, res, next)=> {
+         console.log('AUTH URL:', req.originalUrl);
+  console.log('COOKIES:', req.cookies);
     const {accessToken} = req.cookies;
+
+ 
+
+
 
     if(!accessToken) {
         throw createHttpError(401, 'Missing access token');
