@@ -35,25 +35,48 @@ export const createSession = async(userId) => {
 //     });
 // };
 
+// export const setSessionCookies = (res, session) => {
+//   res.cookie('accessToken', session.accessToken, {
+//     httpOnly: true,
+//     secure: false,
+//     sameSite: 'lax',
+//     maxAge: FIFTEEN_MINUTES,
+//   });
+
+//   res.cookie('refreshToken', session.refreshToken, {
+//     httpOnly: true,
+//     secure: false,
+//     sameSite: 'lax',
+//     maxAge: ONE_DAY,
+//   });
+
+//   res.cookie('sessionId', session.id.toString(), {
+//     httpOnly: true,
+//     secure: false,
+//     sameSite: 'lax',
+//     maxAge: ONE_DAY,
+//   });
+// };
+
 export const setSessionCookies = (res, session) => {
-  res.cookie('accessToken', session.accessToken, {
+  const cookieOptions = {
     httpOnly: true,
-    secure: false,
+    secure: process.env.NODE_ENV === 'production',
     sameSite: 'lax',
+  };
+
+  res.cookie('accessToken', session.accessToken, {
+    ...cookieOptions,
     maxAge: FIFTEEN_MINUTES,
   });
 
   res.cookie('refreshToken', session.refreshToken, {
-    httpOnly: true,
-    secure: false,
-    sameSite: 'lax',
+    ...cookieOptions,
     maxAge: ONE_DAY,
   });
 
   res.cookie('sessionId', session.id.toString(), {
-    httpOnly: true,
-    secure: false,
-    sameSite: 'lax',
+    ...cookieOptions,
     maxAge: ONE_DAY,
   });
 };
