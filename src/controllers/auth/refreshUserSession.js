@@ -3,18 +3,7 @@ import prisma from '../../db/prisma.js';
 import { createSession, setSessionCookies } from '../../services/auth.js';
 
 export const refreshUserSession = async (req, res) => {
-//   const { refreshToken, sessionId } = req.cookies;
-
-//   if (!refreshToken || !sessionId) {
-//   throw createHttpError(401, 'Missing session credentials');
-// }
-
-  console.log('ALL REFRESH COOKIES:', req.cookies);
-
   const { refreshToken, sessionId } = req.cookies;
-
-  console.log('HAS REFRESH TOKEN:', Boolean(refreshToken));
-  console.log('HAS SESSION ID:', Boolean(sessionId));
 
   if (!refreshToken || !sessionId) {
     throw createHttpError(401, 'Missing session credentials');
@@ -51,8 +40,6 @@ export const refreshUserSession = async (req, res) => {
   const newSession = await createSession(session.userId);
 
   setSessionCookies(res, newSession);
-
-  console.log('Session COOKIES:', setSessionCookies);
 
   res.status(200).json({
     message: 'Session refreshed',

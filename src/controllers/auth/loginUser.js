@@ -16,10 +16,6 @@ export const loginUser = async (req, res) => {
     throw createHttpError(401, 'Invalid credentials');
   }
 
-  console.log('password:', password);
-  console.log('user:', user);
-  console.log('hashedPassword:', user.hashedPassword);
-
   const isValidPassword = await bcrypt.compare(password, user.hashedPassword);
 
   if (!isValidPassword) {
@@ -34,25 +30,9 @@ export const loginUser = async (req, res) => {
 
   const newSession = await createSession(user.id);
 
-  console.log('SESSION CREATED:', {
-  id: newSession.id,
-  userId: newSession.userId,
-  accessTokenValidUntil: newSession.accessTokenValidUntil,
-  refreshTokenValidUntil: newSession.refreshTokenValidUntil,
-});
-
   setSessionCookies(res, newSession);
 
-  console.log('SET-COOKIE HEADER:', res.getHeader('Set-Cookie'));
-
-    console.log(
-    'SET-COOKIE EXISTS:',
-    Boolean(res.getHeader('Set-Cookie')),
-  );
-
   const { hashedPassword, ...userWithoutPassword } = user;
-
-  
 
   res.status(200).json(userWithoutPassword);
 };
